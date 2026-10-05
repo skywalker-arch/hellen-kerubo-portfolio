@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Hellen Kerubo monogram">
+  <rect width="128" height="128" rx="28" fill="#0D1524"/>
+  <rect x="12" y="12" width="104" height="104" rx="20" fill="none" stroke="rgba(148,163,184,0.25)"/>
+  <path d="M42 92V36h12l16 27 16-27h12v56H86V59L70 83H58L42 59v33H42Z" fill="#F5F7FA"/>
+  <path d="M28 32h20v8H28zm52 0h20v8H80zm-12 64h38v8H68zm-20 0h8v8h-8z" fill="#4F7CFF"/>
+</svg>
