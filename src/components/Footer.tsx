@@ -14,7 +14,7 @@ export function Footer() {
           <a href="https://www.linkedin.com/in/hellen-kerubo-b7b619352?" target="_blank" rel="noreferrer">
             LinkedIn
           </a>
-          <a href="hkerubo247@gmail.com">Email</a>
+          <a href="mailto:hkerubo247@gmail.com">Email</a>
         </div>
 
         <p className="copyright">© 2026 Hellen Kerubo</p>

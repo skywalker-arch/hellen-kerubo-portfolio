@@ -23,7 +23,7 @@ export const projects: Project[] = [
     accent: '#4F7CFF',
     layout: 'left',
     image: '/images/kuraready.jpeg',
-    liveDemo: undefined,
+    liveDemo: 'https://kuraready.vercel.app/',
     sourceCode: undefined,
   },
   {
@@ -37,7 +37,7 @@ export const projects: Project[] = [
     accent: '#8EA7FF',
     layout: 'right',
     image: '/images/wherediditgo.jpeg',
-    liveDemo: undefined,
+    liveDemo: 'https://where-did-it-go-ten.vercel.app/',
     sourceCode: undefined,
   },
   {
@@ -51,7 +51,7 @@ export const projects: Project[] = [
     accent: '#7CA6FF',
     layout: 'feature',
     image: '/images/seller.jpeg',
-    liveDemo: undefined,
+    liveDemo: 'https://can-i-trust-this-seller.vercel.app/',
     sourceCode: undefined,
   },
   {
@@ -78,7 +78,7 @@ export const projects: Project[] = [
     accent: '#4F7CFF',
     layout: 'right',
     image: '/images/movieverse.jpeg',
-    liveDemo: undefined,
+    liveDemo: 'https://movie-verse-one-pi.vercel.app/',
     sourceCode: undefined,
   },
   {
@@ -92,7 +92,7 @@ export const projects: Project[] = [
     accent: '#8EA7FF',
     layout: 'feature',
     image: '/images/ytclone.jpeg',
-    liveDemo: undefined,
+    liveDemo: 'https://youtube-clone-pink-pi.vercel.app/',
     sourceCode: undefined,
   },
 ]

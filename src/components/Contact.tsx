@@ -112,7 +112,7 @@ export function Contact() {
                 <BriefcaseBusiness size={16} />
                 LinkedIn
               </a>
-              <a href="hkerubo247@gmail.com">
+              <a href="mailto:hkerubo247@gmail.com">
                 <Mail size={16} />
                 hello@hellenkerubo.dev
               </a>
