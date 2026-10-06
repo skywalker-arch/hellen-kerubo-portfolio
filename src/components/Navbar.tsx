@@ -27,10 +27,10 @@ export function Navbar() {
         </nav>
 
         <div className="nav-actions" aria-label="Social links">
-          <a href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub">
+          <a href="https://github.com/skywalker-arch" target="_blank" rel="noreferrer" aria-label="GitHub">
             <Code2 size={16} />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/hellen-kerubo-b7b619352?" target="_blank" rel="noreferrer" aria-label="LinkedIn">
             <BriefcaseBusiness size={16} />
           </a>
           <a href="#contact" aria-label="Contact" className="nav-cta">
@@ -59,13 +59,13 @@ export function Navbar() {
             ))}
           </nav>
           <div className="mobile-socials">
-            <a href="https://github.com" target="_blank" rel="noreferrer">
+            <a href="https://github.com/skywalker-arch" target="_blank" rel="noreferrer">
               GitHub
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/hellen-kerubo-b7b619352?" target="_blank" rel="noreferrer">
               LinkedIn
             </a>
-            <a href="mailto:hello@hellenkerubo.dev">Email</a>
+            <a href="mailto:hkerubo247@gmail.com">Email</a>
           </div>
         </div>
       )}
