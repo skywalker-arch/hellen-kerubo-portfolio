@@ -10,16 +10,22 @@ export type ContactFormResult = {
 }
 
 const CONTACT_ENDPOINT = import.meta.env.VITE_CONTACT_ENDPOINT
-const CONTACT_EMAIL_TO = import.meta.env.VITE_CONTACT_EMAIL_TO
+const CONTACT_EMAIL_TO = import.meta.env.VITE_CONTACT_EMAIL_TO || 'hello@hellenkerubo.dev'
 
 export async function submitContactForm(
   values: ContactFormValues,
 ): Promise<ContactFormResult> {
-  if (!CONTACT_ENDPOINT || !CONTACT_EMAIL_TO) {
+  if (!CONTACT_ENDPOINT) {
+    const subject = encodeURIComponent(`Portfolio contact from ${values.name}`)
+    const body = encodeURIComponent(
+      `Name: ${values.name}\nEmail: ${values.email}\n\nMessage:\n${values.message}`,
+    )
+
+    window.location.href = `mailto:${CONTACT_EMAIL_TO}?subject=${subject}&body=${body}`
+
     return {
-      ok: false,
-      message:
-        'The form is ready to connect. Add VITE_CONTACT_ENDPOINT and VITE_CONTACT_EMAIL_TO in your environment to enable live submissions.',
+      ok: true,
+      message: 'Your email app is opening with the message ready to send.',
     }
   }
 
